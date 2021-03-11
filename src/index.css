@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ----- style classes for the MovieCard Component ----- */
+
+.movie-card {
+  display: inline-block;
+  width: 200px;
+  height: 400px;
+  border: 1px solid lightgray;
+}
+
+.movie-card img {
+  width: 100%;
+}
+
+.movie-card p:first-of-type {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+/* ----- style classes for the MovieCard Component ----- */

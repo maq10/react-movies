@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// import the MovieCard component
+import MovieCard from './MovieCard';
 
+// create a functional component that uses the MovieCard component
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // ----------
+    <>    
+      <MovieCard
+        posterUrl="https://upload.wikimedia.org/wikipedia/en/2/20/Batman_v_Superman_poster.jpg"
+        title="Batman vs Superman"
+        type="Movie"
+      />
+      <MovieCard
+        posterUrl="https://images-na.ssl-images-amazon.com/images/I/419BKTGqRtL._AC_.jpg"
+        title="Batman Begins"
+        type="Movie"
+      />
+      <MovieCard
+        posterUrl="https://upload.wikimedia.org/wikipedia/en/8/83/Batman_returns_poster2.jpg"
+        title="Batman Returns"
+        type="Movie"
+      />
+    </>
   );
+  // ----------
 }
 
 export default App;

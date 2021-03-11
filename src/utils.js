@@ -24,3 +24,7 @@ export const getMovieDetailsById = async (movieId) => {
     const data = await res.json();
     return data;
 };
+
+export const truncate = (str, len = 10) => {
+    return `${str.substring(0, len)}...`
+}
