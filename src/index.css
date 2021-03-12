@@ -30,4 +30,53 @@ code {
   font-size: 1.3em;
 }
 
+.movie-details {
+  display: flex;
+}
+
+.movie-details .poster {
+  margin-right: 20px;
+}
+
+.movie-details .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.movie-details .title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.movie-details .rating {
+  margin: 0;
+  padding: 0;
+  color: blue;
+}
+
+.movie-details ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.movie-details li {
+  display: inline-block;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.movie-details .info-section {
+  margin-top: 20px;
+}
+
+.movie-details .info-section .title {
+  font-weight: bold;
+}
+
 /* ----- style classes for the MovieCard Component ----- */
